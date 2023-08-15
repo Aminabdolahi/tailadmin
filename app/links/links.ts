@@ -15,14 +15,14 @@ export const LINKS_DATA = [
     'icon': '/images/calender-alt-2.svg',
     'label': 'Calendar',
     'title': 'Calendar',
-    'content': [{}]
+    'content': []
   },
   {
     'key': '3',
     'icon': '/images/user-alt-4.svg',
     'label': 'Profile',
     'title': 'Profile',
-    'content': [{}],
+    'content': [],
 
   },
 

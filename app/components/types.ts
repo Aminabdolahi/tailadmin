@@ -10,4 +10,9 @@ export interface Linktype  {
     
   }
 
- 
+ export interface MessageType {
+    key : string
+    title: string;
+    content:string;
+
+ }
