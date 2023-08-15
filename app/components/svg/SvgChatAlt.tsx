@@ -3,7 +3,7 @@ import * as React from "react";
 interface Props {
   className?: string;
 }
-const SvgChatAlt8 = (props: Props) => (
+const SvgChatAlt = (props: Props) => (
     <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -18,4 +18,4 @@ const SvgChatAlt8 = (props: Props) => (
     </g>
   </svg>
 );
-export default SvgChatAlt8;
+export default SvgChatAlt;
