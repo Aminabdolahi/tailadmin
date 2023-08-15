@@ -9,16 +9,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' className='dark]'>
+    <html lang='en' className=' justify-center  '>
       <body>
-        <Providers>
+        <Providers >
           <div className='flex'>
-            <div>
+            <div >
           <SideBar />
             </div>
             <div className='w-full '>
           <TopBar /> 
+          <div className='flex items-center justify-center '>
+
           {children}
+          </div>
             </div>
 
           </div>

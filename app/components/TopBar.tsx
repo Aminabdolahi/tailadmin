@@ -1,6 +1,8 @@
 import Link from "next/link";
 import ToggleSwitch from "./darkmode/ToggleSwitch";
 import Search from "./searchbar/Search";
+import Notification from "./Notifaction";
+
 
 
 const TopBar = () => {
@@ -10,6 +12,7 @@ const TopBar = () => {
             <Search/>
             <div className="flex gap-10">
             <ToggleSwitch/>
+            <Notification/>
             <Link href={"/signin"}>sign in</Link>
             </div >
         </div>
