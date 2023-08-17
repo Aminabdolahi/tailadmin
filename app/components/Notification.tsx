@@ -3,20 +3,23 @@ import { useState } from 'react';
 import DropDown from './DropDown';
 import SvgAlarm from './svg/SvgAlarm';
 import SvgChatAlt from './svg/SvgChatAlt';
+import { dropdown } from '@nextui-org/react';
 
 
 const Notification = () => {
   const [alarm, setAlarm] = useState<boolean>(false);
+  const [alarmNotification,setAlarmNotification] = useState<number>(5);
 
   const chatNotification: number = 10;
-  const alarmNotification: number = 5;
 
   return (
     <div className='relative flex gap-14'>
       <div>
         <button
           className='bg-gray-200 p-2 rounded-full absolute'
-          onClick={() => setAlarm(!alarm)}
+          onClick={() => {setAlarm(!alarm);
+            setAlarmNotification(0);
+        }}
         >
           <SvgAlarm />
           {alarmNotification > 0 && (

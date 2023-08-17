@@ -1,5 +1,5 @@
 export interface Content  {label:string,
-    pro:boolean}
+    pro:boolean, link:string,}
 
 export interface Linktype  {
     key: string;
@@ -7,7 +7,6 @@ export interface Linktype  {
     label: string;
     content: Content[];
     title: string;
-    
   }
 
  export interface MessageType {

@@ -6,9 +6,11 @@ export const LINKS_DATA = [
     icon: "/images/grid-alt.svg",
     label: "Dashboard",
     content : [
-      {label:"eCommerce",pro:true},{label:"Analytics",pro:false},{label:"Marketing",pro:true},{label: "CRM", pro:true}
+      {label:"eCommerce",pro:true, link: "/dashboard"},
+      {label:"Analytics",pro:false},{label:"Marketing",pro:true, link: "/dashboard"},{label: "CRM", pro:true, link: "/dashboard"}
     ],
     title: "Dashboard",
+    
   },
   {
     'key': '2',

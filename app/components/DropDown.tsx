@@ -8,8 +8,8 @@ const DropDown = () => {
     
     
     return (
-        <div className="absolute top-1 right-1  w-[320px] overflow-y-clip shadow  my-9 ">
-            <div className="text-[#8A99AF] text-start px-5 border py-3 relative">
+        <div className="absolute top-0 right-10 bg-white  w-[320px] overflow-y-clip shadow  my-9 ">
+            <div className="text-[#8A99AF] text-start px-5 border py-3 ">
                 <span >Notification</span>
             </div>
             <div className="flex-col text-start px-5 border py-3">
