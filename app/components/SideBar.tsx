@@ -24,14 +24,15 @@ const SideBar = () => {
       <div>
         {<div>
   {LINKS_DATA.map((link ) => (
-            
+      
     <Accordions
       key={ link.key}
       icon={link.icon}
       label={link.label}
       content={link.content}
       title={link.title}
-    />
+      />
+         
     ))}
     
 

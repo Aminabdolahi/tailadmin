@@ -7,6 +7,7 @@ export interface Linktype  {
     label: string;
     content: Content[];
     title: string;
+    link?: string;
   }
 
  export interface MessageType {

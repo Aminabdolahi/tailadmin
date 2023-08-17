@@ -10,7 +10,7 @@ export const LINKS_DATA = [
       {label:"Analytics",pro:false},{label:"Marketing",pro:true, link: "/dashboard"},{label: "CRM", pro:true, link: "/dashboard"},
     ],
     title: "Dashboard",
-    
+    link: "/dashboard"
   },
   {
     'key': '2',

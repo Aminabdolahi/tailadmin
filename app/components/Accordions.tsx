@@ -6,6 +6,7 @@ import { Linktype } from './types';
 import IsPro from './IsPro';
 import { boolean } from 'yup';
 import SvgDown from './svg/SvgDown';
+import Link from 'next/link';
 
 type IndicatorProps = {
   isOpen: boolean;
@@ -32,10 +33,12 @@ const Accordions = (props: Linktype) => {
           className='text-darktext  w-full pt-[23px] pl-[40px] pr-[25px]'>
           {props.content.map((item, index) => {
             return (
+              <Link href={item.link? item.link : "#"} key={index}>
               <div key={index} className='p-4 flex justify-between'>
                 <div>{item.label}</div>
                 {item.pro && <IsPro />}
               </div>
+              </Link>
             );
           })}
         </AccordionItem>
